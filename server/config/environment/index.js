@@ -19,7 +19,7 @@ var all = {
   root: path.normalize(__dirname + '/../../..'),
 
   // Server port
-  port: process.env.PORT || 9000,
+  port: process.env.PORT || 9001,
 
   // Server IP
   ip: process.env.IP || '0.0.0.0',
@@ -29,7 +29,7 @@ var all = {
 
   // Secret for session, you will want to change this and make it an environment variable
   secrets: {
-    session: 'meanc-secret'
+    session: 'imean-secret'
   },
 
   // MongoDB connection options

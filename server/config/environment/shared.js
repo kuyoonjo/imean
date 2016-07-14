@@ -5,6 +5,6 @@ exports = module.exports = {
   userRoles: ['guest', 'user', 'admin'],
   
   // API root URL
-  apiRoot: 'http://local.host:9000',
-  socketRoot: 'http://local.host:9000'
+  apiRoot: 'http://localhost:9000',
+  socketRoot: 'http://localhost:9000'
 };
